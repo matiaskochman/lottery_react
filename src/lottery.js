@@ -56,4 +56,4 @@ const contract_abi = [
   }
 ];
 //exports a copy of the contract that exists in the blockchain
-export default new web3.Contract(abi,address);
+export default new web3.eth.Contract(contract_abi,contract_address);
